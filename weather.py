@@ -4,8 +4,9 @@
 import pyowm
 import string   # for capwords()
 
-# API Keys
-owm = pyowm.OWM('b7686ed6ad45471e6ed20e35f9f860c1')
+# API Key
+api_key = # your api key
+owm = pyowm.OWM(api_key)
 
 # Setting current location
 print('\nEnter location: ', end='')
